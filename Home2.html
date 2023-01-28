@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.square{
+height:100px;
+width:100px;
+background-color:gold;
+border-radius:50%;
+
+}
+#first{
+display:flex;
+}
+#second{
+display:flex;
+}
+#third{
+display:flex;
+}
+h4{
+margin:auto;
+margin-top:40px;
+margin-left:40px;
+}
+.main{
+margin-left:350px;
+margin-top:150px;
+}
+#bt{
+margin-left:350px;
+margin-top:30px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="main">
+<div id="first">
+<div class="square"><h4>1</h4></div>
+<div class="square"><h4>2</h4></div>
+<div class="square"><h4>3</h4></div>
+<div class="square"><h4>4</h4></div>
+<div class="square"><h4>5</h4></div>
+<div class="square"><h4>6</h4></div>
+<div class="square"><h4>7</h4></div>
+</div>
+<div id="second">
+<div class="square"><h4>8</h4></div>
+<div class="square"><h4>9</h4></div>
+<div class="square"><h4>10</h4></div>
+<div class="square"><h4>11</h4></div>
+<div class="square"><h4>12</h4></div>
+<div class="square"><h4>13</h4></div>
+<div class="square"><h4>14</h4></div>
+</div>
+<div id="third">
+<div class="square"><h4>15</h4></div>
+<div class="square"><h4>16</h4></div>
+<div class="square"><h4>17</h4></div>
+<div class="square"><h4>18</h4></div>
+<div class="square"><h4>19</h4></div>
+<div class="square"><h4>20</h4></div>
+<div class="square"><h4>21</h4></div>
+</div>
+
+</div>
+<h5 id="ram"></h5>
+
+<p id="bt">USER:<button onClick={hello()} >START</button></p>
+<script type="text/javascript">
+function hello(){
+	var b=prompt("select maximum 4 coins");
+	if(b>=5)
+		{
+		var c=alert("invalid input");
+		}
+	let v=[];
+	
+		v.push(b);
+		
+		for(let a=0;a<v.length();a++)
+			{
+			document.write(v[i]);
+			}
+		
+		
+	
+}
+
+
+
+</script>
+
+</body>
+</html>
